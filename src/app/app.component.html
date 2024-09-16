@@ -1,0 +1,44 @@
+<div class="card m-5 w-6">
+  <h5 class="card-header">Registertion</h5>
+  <div class="card-body m-5">
+    <form [formGroup]="formValue" (ngSubmit)="registerationForm()">
+      <div class="form-row">
+        <div class="form-group col-5">
+          <label for="name">First Name</label>
+          <input type="text" formControlName="name" class="form-control" />
+        </div>
+        <div class="form-group col-5">
+          <label for="lastName">Last Name</label>
+          <input type="text" formControlName="lastName" class="form-control" />
+        </div>
+      </div>
+      <div class="form-group col-5">
+        <label for="email">Email</label>
+        <input type="text" formControlName="email" class="form-control" />
+      </div>
+      <div class="form-row">
+        <div class="form-group col-5">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            formControlName="password"
+            class="form-control"
+          />
+        </div>
+        <div class="form-group col-5">
+          <label for="onfirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            formControlName="confirmPassword"
+            class="form-control"
+          />
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary mr-1">Register</button>
+        <button class="btn btn-secondary" type="reset">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

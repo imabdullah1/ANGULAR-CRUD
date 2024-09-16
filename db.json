@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Abdullah",
+      "lastName": "Khan",
+      "email": "abdullah@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345"
+    },
+    {
+      "id": "e58d",
+      "name": "Usman",
+      "lastName": "Ghani",
+      "email": "usmang@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "body": "Comment on post 1"
+    },
+    {
+      "id": "2",
+      "postId": 2,
+      "body": "Comment on post 2"
+    }
+  ]
+}
